@@ -9,7 +9,7 @@ module.exports = {
     updateChannel: 'stable',
 
     // default font size in pixels for all tabs
-    fontSize: 13,
+    fontSize: 11,
 
     // font family with optional fallbacks
     fontFamily: '"Ricty Diminished", Menlo, Consolas',
@@ -43,7 +43,7 @@ module.exports = {
 
     // terminal background color
     // opacity is only supported on macOS
-    backgroundColor: 'rgba(0, 0, 0, 0.6)',
+    backgroundColor: 'rgba(0, 0, 0, 0.5)',
 
     // terminal selection color
     selectionColor: 'rgba(248,28,229,0.3)',
@@ -98,7 +98,7 @@ module.exports = {
 
       // [Optional] Set the rgba() app background opacity, useful when enableVibrance is true
       // OPTIONS: From 0.1 to 1
-      backgroundOpacity: '0.6',
+      backgroundOpacity: '0.1',
 
       // [Optional] Set the accent color for the current active tab
       accentColor: '#64FFDA',
@@ -134,7 +134,7 @@ module.exports = {
     bell: 'SOUND',
 
     // if `true` (without backticks and without quotes), selected text will automatically be copied to the clipboard
-    copyOnSelect: false,
+    copyOnSelect: true,
 
     // if `true` (without backticks and without quotes), hyper will be set as the default protocol client for SSH
     defaultSSHApp: true,
@@ -164,7 +164,7 @@ module.exports = {
   //   `hyperpower`
   //   `@company/project`
   //   `project#1.0.1`
-  plugins: ["hypercwd", "hyper-tab-icons", "hyper-material-theme"],
+  plugins: ["hypercwd", "hyper-tab-icons", "hyper-search"],
 
   // in development, you can create a directory under
   // `~/.hyper_plugins/local/` and include it here
