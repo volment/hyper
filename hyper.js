@@ -9,10 +9,10 @@ module.exports = {
     updateChannel: 'stable',
 
     // default font size in pixels for all tabs
-    fontSize: 12,
+    fontSize: 13,
 
     // font family with optional fallbacks
-    fontFamily: '"Ricty Diminished", Menlo, Consolas',
+    fontFamily: 'Ricty Diminished, Menlo, Consolas, Hack Nerd Font',
 
     // default font weight: 'normal' or 'bold'
     fontWeight: 'normal',
@@ -43,7 +43,7 @@ module.exports = {
 
     // terminal background color
     // opacity is only supported on macOS
-    backgroundColor: 'rgba(0, 0, 0, 0.6)',
+    backgroundColor: 'rgba(0, 0, 0, 0.7)',
 
     // terminal selection color
     selectionColor: 'rgba(248,28,229,0.3)',
